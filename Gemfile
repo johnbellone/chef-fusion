@@ -9,6 +9,7 @@ group :development, :test do
   gem 'test-kitchen'
   gem 'guard-kitchen'
   gem 'kitchen-vagrant'
-  gem 'serverspec'
   gem 'chefspec'
 end
+
+gemspec

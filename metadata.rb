@@ -1,10 +1,12 @@
+require File.expand_path('../lib/chef/fusion/version.rb', __FILE__)
+
 name             'chef-fusion'
 maintainer       'John Bellone'
 maintainer_email 'jbellone@bloomberg.net'
 license          'Apache 2.0'
 description      'Installs chef-fusion.'
 long_description 'Installs chef-fusion.'
-version          '0.1.0'
+version          Chef::Fusion::VERSION
 
 %w(centos redhat).each do |name|
   supports name, '~> 7.0'
