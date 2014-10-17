@@ -1,0 +1,19 @@
+---
+AllCops:
+  Include:
+    - Berksfile
+    - Gemfile
+    - Guardfile
+    - Rakefile
+  Exclude:
+    - test/**/*
+    - vendor/**/*
+    - tmp/**/*
+Documentation:
+  Enabled: false
+Encoding:
+  Enabled: false
+LineLength:
+  Max: 120
+MethodLength:
+  Max: 20
