@@ -3,6 +3,8 @@
 # Recipe: chef-fusion
 # License: Apache 2.0 (see http://www.apache.org/licenses/LICENSE-2.0)
 #
+include_recipe 'chef-sugar::default'
+
 chef_gem('chef-fusion') do
   action :nothing
   version run_context.cookbook_collection[cookbook_name].metadata.version
